@@ -2,6 +2,13 @@
 
 A simple script to copy a GitHub release from one repository to another
 
+## Assumptions
+
+This makes some very specific assumptions:
+
+- The release is linked to a git tag
+- The git tag also exists in the target repo
+
 ## Prerequisites
 
 - This script requires node v20 or above.
