@@ -21,7 +21,6 @@ const getReleaseDetails = async (
     body: release.body ?? undefined,
     name: release.name ?? undefined,
     tagName: release.tag_name,
-    targetCommitish: release.target_commitish,
   };
 };
 
@@ -70,8 +69,12 @@ const copyRelease = async (
   tag: string,
 ): Promise<void> => {
   const [fromOwner, fromRepoName] = fromRepo.split("/");
-  const { assets, body, name, tagName, targetCommitish } =
-    await getReleaseDetails(octokit, fromOwner, fromRepoName, tag);
+  const { assets, body, name, tagName } = await getReleaseDetails(
+    octokit,
+    fromOwner,
+    fromRepoName,
+    tag,
+  );
 
   const [toRepoOwner, toRepoName] = toRepo.split("/");
   const { data: newRelease } = await octokit.repos.createRelease({
@@ -80,7 +83,6 @@ const copyRelease = async (
     body,
     name,
     tag_name: tagName,
-    target_commitish: targetCommitish,
   });
 
   for (const asset of assets) {
