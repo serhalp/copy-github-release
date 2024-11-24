@@ -4,7 +4,7 @@
   "description": "Copy a GitHub release from one repository to another",
   "main": "copy-github-release.ts",
   "type": "module",
-  "packageManager": "pnpm@8.15.5",
+  "packageManager": "pnpm@8.15.9",
   "engines": {
     "node": ">=20"
   },
