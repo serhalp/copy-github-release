@@ -21,7 +21,7 @@
   "author": "Philippe Serhal <philippe.serhal@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@octokit/rest": "^20.1.1",
+    "@octokit/rest": "^21.0.0",
     "commander": "^12.1.0",
     "typescript": "^5.4.5",
     "vite-node": "^1.6.0"
