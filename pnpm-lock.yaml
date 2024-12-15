@@ -13,7 +13,7 @@ dependencies:
     version: 12.1.0
   typescript:
     specifier: ^5.4.5
-    version: 5.4.5
+    version: 5.7.2
   vite-node:
     specifier: ^1.6.0
     version: 1.6.0(@types/node@20.14.2)
@@ -615,8 +615,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /typescript@5.4.5:
-    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+  /typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: false
