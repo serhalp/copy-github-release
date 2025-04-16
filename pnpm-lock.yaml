@@ -10,7 +10,7 @@ dependencies:
     version: 21.1.1
   commander:
     specifier: ^13.0.0
-    version: 13.0.0
+    version: 13.1.0
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
@@ -496,8 +496,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /commander@13.0.0:
-    resolution: {integrity: sha512-oPYleIY8wmTVzkvQq10AEok6YcTC4sRUBl8F9gVuwchGVUCTbl/vhLTaQqutuuySYOsu8YTgV+OxKc/8Yvx+mQ==}
+  /commander@13.1.0:
+    resolution: {integrity: sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw==}
     engines: {node: '>=18'}
     dev: false
 
