@@ -24,7 +24,7 @@
     "@octokit/rest": "^21.0.0",
     "commander": "^13.0.0",
     "typescript": "^5.4.5",
-    "vite-node": "^1.6.0"
+    "vite-node": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.14.2"
