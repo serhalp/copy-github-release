@@ -22,7 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "@octokit/rest": "^21.1.1",
-    "commander": "^13.1.0",
+    "commander": "^14.0.0",
     "typescript": "^5.8.3",
     "vite-node": "^3.2.4"
   },
