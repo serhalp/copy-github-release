@@ -16,12 +16,12 @@ dependencies:
     version: 5.8.3
   vite-node:
     specifier: ^3.2.4
-    version: 3.2.4(@types/node@20.19.1)
+    version: 3.2.4(@types/node@22.15.32)
 
 devDependencies:
   '@types/node':
-    specifier: ^20.19.1
-    version: 20.19.1
+    specifier: ^22.0.0
+    version: 22.15.32
 
 packages:
 
@@ -526,8 +526,8 @@ packages:
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
     dev: false
 
-  /@types/node@20.19.1:
-    resolution: {integrity: sha512-jJD50LtlD2dodAEO653i3YF04NWak6jN3ky+Ri3Em3mGR39/glWiboM/IePaRbgwSfqM1TpGXfAg8ohn/4dTgA==}
+  /@types/node@22.15.32:
+    resolution: {integrity: sha512-3jigKqgSjsH6gYZv2nEsqdXfZqIFGAV36XYYjf9KGZ3PSG+IhLecqPnI310RvjutyMwifE2hhhNEklOUrvx/wA==}
     dependencies:
       undici-types: 6.21.0
 
@@ -705,7 +705,7 @@ packages:
     resolution: {integrity: sha512-TmnEAEAsBJVZM/AADELsK76llnwcf9vMKuPz8JflO1frO8Lchitr0fNaN9d+Ap0BjKtqWqd/J17qeDnXh8CL2A==}
     dev: false
 
-  /vite-node@3.2.4(@types/node@20.19.1):
+  /vite-node@3.2.4(@types/node@22.15.32):
     resolution: {integrity: sha512-EbKSKh+bh1E1IFxeO0pg1n4dvoOTt0UDiXMd/qn++r98+jPO1xtJilvXldeuQ8giIB5IkpjCgMleHMNEsGH6pg==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
@@ -714,7 +714,7 @@ packages:
       debug: 4.4.1
       es-module-lexer: 1.7.0
       pathe: 2.0.3
-      vite: 6.3.5(@types/node@20.19.1)
+      vite: 6.3.5(@types/node@22.15.32)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -730,7 +730,7 @@ packages:
       - yaml
     dev: false
 
-  /vite@6.3.5(@types/node@20.19.1):
+  /vite@6.3.5(@types/node@22.15.32):
     resolution: {integrity: sha512-cZn6NDFE7wdTpINgs++ZJ4N49W2vRp8LCKrn3Ob1kYNtOo21vfDoaV5GzBfLU4MovSAB8uNRm4jgzVQZ+mBzPQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
@@ -770,7 +770,7 @@ packages:
       yaml:
         optional: true
     dependencies:
-      '@types/node': 20.19.1
+      '@types/node': 22.15.32
       esbuild: 0.25.5
       fdir: 6.4.6(picomatch@4.0.2)
       picomatch: 4.0.2
