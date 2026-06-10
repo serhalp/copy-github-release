@@ -13,7 +13,7 @@ dependencies:
     version: 13.1.0
   typescript:
     specifier: ^5.8.3
-    version: 5.8.3
+    version: 5.9.3
   vite-node:
     specifier: ^5.0.0
     version: 5.2.0(@types/node@20.19.1)
@@ -682,8 +682,8 @@ packages:
       picomatch: 4.0.3
     dev: false
 
-  /typescript@5.8.3:
-    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+  /typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: false
